@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">AdvanceSearch</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="mapTextVw">Map</string>
+    <string name="fleetTextVw">Fleet</string>
+    <string name="dashboardtextVw">Dashboard</string>
+    <string name="settingTextVw">Settings</string>
+
+
+    <string name="settingTitleVw">Please Set Your Application Settings First</string>
+
+    <!--show on map-->
+    <string name="platenumberTextVw">Plate Number -</string>
+    <string name="ssnTextVw">SSN -</string>
+    <string name="speedTextVw">Speed -</string>
+
+    <string name="showOnmapTextVw">show on map</string>
+
+    <!--Vehicles details-->
+
+    <string name="gpsTextVw">GPS Time -</string>
+    <string name="positionTextVw">Position -</string>
+    <string name="statusTextVw">Status -</string>
+    <string name="fuelLevelTextVw">Fuel Level -</string>
+
+    <string name="lastfuelTextVw">Last Fuel value time -</string>
+    <string name="descriptionTextVw">Description -</string>
+    <string name="vehicledetailsTextVw">Vehicle Details</string>
+
+    <!--Setting page-->
+
+    <string name="usernameTextVw">Username</string>
+    <string name="passwordTextVw">Password</string>
+    <string name="instanceTextVw">Instance</string>
+    <string name="serverTextVw">Server</string>
+    <string name="ok">Save</string>
+    <string name="reset">Edit</string>
+
+    <string name="noInternetTextVw">No Internet Found</string>
+
+    <string name="status">Status</string>
+    <string name="speed">Speed</string>
+    <string name="fuel">Fuel</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <string name="sort">Sort</string>
+    <string name="undo">Undo</string>
+    <string name="PlateNumber">PlateNumber</string>
+    <string name="SSN">SSN</string>
+
+</resources>

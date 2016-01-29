@@ -1,0 +1,95 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.aman1.fragments.fleetFragment"
+    android:background="#eef3fa">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="2"
+        android:id="@+id/linear1"
+        android:orientation="horizontal"
+        >
+
+        <EditText
+            android:id="@+id/searchEditTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="search"
+            android:drawableLeft="@drawable/search"
+            android:drawablePadding="5dp"
+            android:padding="5dp"
+            android:background="#b7b7b7"
+            android:layout_weight="1.3"
+            android:layout_alignParentTop="true"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+
+        android:layout_marginTop="2dp"
+        android:id="@+id/linear2"
+        android:layout_below="@+id/linear1"
+        android:background="#ffffff">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+
+            android:layout_marginLeft="10dp"
+            android:textColor="#000000"
+            android:text="@string/PlateNumber"
+            />
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginLeft="10dp"
+            android:text="@string/SSN"
+            />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/showOnMapLayout"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:visibility="invisible"
+            android:layout_weight="1"
+            >
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="right"
+                android:gravity="right"
+                android:text="@string/showOnmapTextVw"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listView1"
+        android:background="#eef3fa"
+        android:layout_marginTop="2dp"
+        android:layout_below="@+id/linear2"
+        android:divider="#eef3fa"
+        android:dividerHeight="5dp"/>
+</RelativeLayout>
